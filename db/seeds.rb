@@ -2,8 +2,8 @@ puts "Seeding database"
 puts "-------------------------------"
 
 # Create an initial Admin User
-admin_email = "errbit@#{Errbit::Config.host}"
-admin_pass  = 'password'
+admin_email = "admin@#{Errbit::Config.host}"
+admin_pass  = ActiveSupport::SecureRandom.hex(8)
 
 puts "Creating an initial admin user:"
 puts "-- email:    #{admin_email}"
