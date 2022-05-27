@@ -63,7 +63,7 @@ GEM
       will_paginate (~> 3.0.pre)
     nokogiri (1.4.3.1)
     polyglot (0.3.1)
-    rack (1.2.1)
+    rack (1.2.8)
     rack-mount (0.6.9)
       rack (>= 1.0.0)
     rack-test (0.5.4)
